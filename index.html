@@ -5,6 +5,8 @@
     <meta charset="UTF-8" /> <!-- Aplica un coding especial para que se muestren acentos,etc-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diseñador freelance</title> <!-- Titulo en la pestaña-->
+    <link rel="preload" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -15,12 +17,14 @@
       <span>Freelancer</span></h1>
     </header>
 
-    <nav>
-      <a href="#">Inicio</a> <!-- Para poner enlaces "a" -->
-      <a href="#">Sobre mi</a>
-      <a href="#">Clientes</a>
-      <a href="#">Contactos</a>
-    </nav>
+    <div class="nav-bg">
+      <nav class="navegacion-principal contenedor">
+        <a href="#">Inicio</a> <!-- Para poner enlaces "a" -->
+        <a href="#">Sobre mi</a>
+        <a href="#">Clientes</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </div>
 
     <section>
       <h2>Diseño y Desarrollo Web Freelancer</h2>
