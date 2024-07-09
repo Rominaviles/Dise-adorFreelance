@@ -5,7 +5,7 @@
     <meta charset="UTF-8" /> <!-- Aplica un coding especial para que se muestren acentos,etc-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diseñador freelance</title> <!-- Titulo en la pestaña-->
-    <link rel="preload" href="css/normalize.css">
+    <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet">
@@ -28,29 +28,34 @@
       </nav>
     </div>
 
-    <section>
-      <h2 class="titulo">Diseño y Desarrollo Web <span>Freelancer</span></h2>
-      <p>Buenos Aires, Argentina</p>
+    <section class="hero"> <!--h2, section-->
+      <div class="contenido-hero">
+        <h2 class="titulo">Diseño y Desarrollo Web <span>Freelancer</span></h2>
+        <p>        
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-location"
+          width="60"
+          height="60"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="#00abfb"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5"
+          />
+        </svg>
+        Buenos Aires, Argentina</p>
+  
 
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="icon icon-tabler icon-tabler-location"
-        width="60"
-        height="60"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="#00abfb"
-        fill="none"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      >
-        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-        <path
-          d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5"
-        />
-      </svg>
+  
+        <a href="#">Contactar</a>
+      </div>
 
-      <a href="#">Contactar</a>
     </section>
 
     <main>
@@ -151,7 +156,7 @@
 
     <section>
       <h2>Contacto</h2>
-      <form>
+      <form> <!--Form formulario-->
         <fieldset>
           <legend>Para mas información, contactame por privado</legend>
 
