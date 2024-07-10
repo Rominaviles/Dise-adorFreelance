@@ -46,6 +46,18 @@ h1,h2,h3{
     margin: 0 auto;
 }
 
+.boton {
+    background-color: var(--terciario);
+    color: var(--beige);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem; /**borde del boton**/
+}
+
 .nav-bg {
     background-color: var(--terciario);
 }
@@ -102,4 +114,9 @@ h1,h2,h3{
 .contenido-hero h2,
 .contenido-hero p{
     color: var(--beige);
+}
+
+.ubicacion {
+    display: flex;
+    align-items: center;
 }
